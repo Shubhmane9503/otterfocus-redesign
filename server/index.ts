@@ -1,5 +1,6 @@
 import express from "express";
 import { createServer } from "http";
+import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
@@ -16,10 +17,18 @@ async function startServer() {
       ? path.resolve(__dirname, "public")
       : path.resolve(__dirname, "..", "dist", "public");
 
-  app.use(express.static(staticPath));
+  app.use(express.static(staticPath, { redirect: false }));
 
-  // Handle client-side routing - serve index.html for all routes
-  app.get("*", (_req, res) => {
+  // Serve the statically prerendered route document when it exists, with a client-side fallback.
+  app.get("*", (req, res) => {
+    const routePath = req.path.replace(/^\/+|\/+$/g, "");
+    const prerenderedFile = path.join(staticPath, routePath, "index.html");
+
+    if (routePath && fs.existsSync(prerenderedFile)) {
+      res.sendFile(prerenderedFile);
+      return;
+    }
+
     res.sendFile(path.join(staticPath, "index.html"));
   });
 

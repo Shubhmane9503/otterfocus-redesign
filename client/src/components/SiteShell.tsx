@@ -95,7 +95,7 @@ export function TextLink({ href, children }: { href: string; children: ReactNode
 export function ImageWithCaption({ src, alt, caption, className = "" }: { src: string; alt: string; caption: string; className?: string }) {
   return (
     <figure className={`image-figure ${className}`}>
-      <img src={src} alt={alt} loading="lazy" />
+      <img src={src} alt={alt} />
       <figcaption>{caption}</figcaption>
     </figure>
   );
