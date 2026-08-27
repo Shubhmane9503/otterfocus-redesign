@@ -108,7 +108,7 @@ export function SiteFooter() {
       <div className="footer-grid">
         <div>
           <Wordmark />
-          <p className="footer-intro">A photographic practice for meaningful gatherings and the wide, remarkable world around us.</p>
+          <p className="footer-intro">Otterfocus is the Las Vegas photography practice of Armand Arnau for weddings, meaningful events, landscapes, wildlife, and fine-art print enquiries.</p>
         </div>
         <div className="footer-links">
           <p>Explore</p>
@@ -116,6 +116,8 @@ export function SiteFooter() {
           <Link href="/nature">Nature Collection</Link>
           <Link href="/selected-work">Selected Work</Link>
           <Link href="/prints">Prints</Link>
+          <Link href="/pricing">Pricing guidance</Link>
+          <Link href="/faq">FAQs</Link>
         </div>
         <div className="footer-links">
           <p>Follow</p>

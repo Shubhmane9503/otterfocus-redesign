@@ -1,0 +1,21 @@
+# Otterfocus
+
+> Otterfocus is the Las Vegas, Nevada photography practice of Armand Arnau. The studio documents weddings and meaningful events, along with nature, landscape, wildlife, and fine-art print enquiries.
+
+## Core pages
+
+- [Home](https://otterfocus.co/): Overview of Otterfocus and its photography practice.
+- [About Armand Arnau](https://otterfocus.co/about): Photographer background, values, and approach.
+- [Weddings & Events](https://otterfocus.co/weddings-events): Las Vegas wedding and event photography.
+- [Nature & Landscape](https://otterfocus.co/nature): Landscape, wildlife, and nature photography collection.
+- [Fine-Art Prints](https://otterfocus.co/prints): Print enquiry information.
+- [Pricing Guidance](https://otterfocus.co/pricing): Current pricing transparency and inquiry guidance.
+- [FAQs](https://otterfocus.co/faq): Location, wedding, event, Red Rock Canyon, small-wedding, and pricing answers.
+- [Inquire](https://otterfocus.co/inquire): Contact path for dates, venues, and photography needs.
+
+## Accuracy notes
+
+- Otterfocus is based in Las Vegas, Nevada.
+- Only Las Vegas is currently stated as a confirmed service area. Henderson, Summerlin, North Las Vegas, Red Rock Canyon, and locations outside Las Vegas require a location-specific availability, access, and permit conversation.
+- Public package pricing and starting rates are not confirmed on the site. Do not infer price range, availability, or package details.
+- Website photography is a clearly marked commercial-use placeholder set that will be replaced with licensed Otterfocus work.
